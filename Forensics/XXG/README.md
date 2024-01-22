@@ -44,7 +44,7 @@ Gi?? ??? v014ÈúBBõ????-image-grid¬(style solid)
 
 By looking at it, I guessed that the `Gi` was referring to `gimp` so I changed it to `gimp`.
 
-Then, I hopped on Google and searched for formats Gimp supported and stumbled upon `XCF`. I then looked more at the [.XCF Header Format](https://developer.gimp.org/core/standards/xcf/#header) and finally changed the `???` to `xcf`. I then removed the PNG data since it wasn't relevant now. The data then was:
+Then, I hopped on Google and searched for formats Gimp supported and stumbled upon `XCF`. I then looked more at the [.XCF Header Format](https://developer.gimp.org/core/standards/xcf/#header) and finally changed the `???` to `xcf`. I then removed the PNG data since it wasn't relevant now. Then I converted the file's format to XCF. The data then was:
 
 ```plaintext
 gimp xcf v014ÈúBBõgimp-image-grid¬(style solid)
