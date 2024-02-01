@@ -77,7 +77,7 @@ gimp xcf v014ÈúBBõgimp-image-grid¬(style solid)
 ûÿûãSS¯ÿ÷ãäÿÿKÿÑÿçÇP[PòxWGÿÿ¯ñúÿ¢ã=uÿÿA¿	ÿýfBûÿþã_ÿúã<OÿÿKÿãñúÿ¢þÿÚÿÿDüÿÿþgÁãlCþÿS}¿ÊN]ÿöÃQûÇqT§ã_ÿØãqZªÿKÿÇýeVfÿÿþgÁÿÿÿºÿÿ>VùãkÁáo¿¥ÿòýSøOûÇCþÿã WWÎÿõãlæ%îKÿÇ®ÿö>Vùÿ¸pÿRåÿò¦ãkÙhÉ¿ùPÂÿõ±ÿOûÇ}ÿÿã_ÿõãkÿbNÿÇ´ÿæ¦ÿeýßVÿÿýÿÿºxãkÿGNÿ¿ÿÿõ@ÿõTOOTÇÿÿã_ÿÖãkÿû+*ÿÇ«ÿÿýÿÿºxÿâÿu»ÿÿS\Uéãkÿ~ÿ¿¥Z[ÿõOûÇÿÿãOO­ÿëãkÿÿ¾ÿÇübU[S\Uéÿ3öSÿÿýkÿùÿÿýkÿùSÿÿûÌÄ^cÿâkÐiÿDöÿÿÜuÿRèÿÿþèÿ®-èÿÿöªÿáÿûûêÿPóÿûÄaÿGûÿþÿÿûÌÄ^cÿâkÐiÿDöÿÿÜuÿRèÿÿþèÿ®-èÿÿöªÿáÿûûêÿPóÿûÄaÿGûÿþÿd2
 ```
 
-After trying to open the file in Gimp, it gave me an error `XCF error: unsupported XCF file version 14 encountered`. I then looked at some xcf files created by me and found the common version as v011. So after changing the version, the final data was:
+After trying to open the file in Gimp, it gave me an error `XCF error: unsupported XCF file version 14 encountered`. I then tried/bruteforced different version from `v001` to `v014` until `v011` worked. So after changing the version, the final data was:
 
 ```
 gimp xcf v011ÈúBBõgimp-image-grid¬(style solid)
