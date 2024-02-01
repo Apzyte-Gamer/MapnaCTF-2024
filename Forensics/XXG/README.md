@@ -7,7 +7,7 @@ Solution
 =
 
 Upon opening the file in [010](https://www.sweetscape.com/010editor/), I noticed the file format at the top was written as PNG as shown in the hex-editor. I converted the file to a PNG but it only displayed an image having the text `MAPNA`.
-Therefore, I reverted my changes and went on to 010 and looked in the strings.
+Therefore, I reverted my changes and went on to 010 and looked in the strings maybe to find some metadata or hints.
 
 Upon scrolling and reading carefully, I stumbled upon this particular text that caught my eye:
 
